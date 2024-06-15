@@ -4,6 +4,11 @@ int main( ){
 	int numero,i=2;
 	cout<<"Ingrese un numero: ";
 	cin>>numero;
+	if(numero<0){
+		cout<<"El numero que ingreso no es valido";
+		return 0;
+	}else{
+		
 	if(numero>1){
 		while(numero%i!=0){
 		i=i+1;
@@ -18,5 +23,6 @@ int main( ){
 	else{
 	cout<<"El numero ingresado no es primo"<<numero<<endl;
 	}
+}
 	return 0;
 }
