@@ -1,3 +1,4 @@
+//*4. Determinar si un número es primo. Recuerde que un número primo solo es divisible por 1 y si mismo.*//
 #include<iostream>
 using namespace std;
 int main( ){
