@@ -15,7 +15,7 @@ int main( ){
 		i=i+1;
 	}
 		if(i==numero){
-			cout<<"El numero ingreado anteriormente es primo: "<<numero<<endl;
+			cout<<"El numero ingresado anteriormente es primo: "<<numero<<endl;
 		}
 			else{
 			cout<<"El numero ingresado anteriormente no es un primo: "<<numero<<endl;
